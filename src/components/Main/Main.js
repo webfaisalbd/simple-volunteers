@@ -4,12 +4,18 @@ import Activity from '../Activity/Activity';
 import './Main.css'
 const Main = () => {
     
-    const [volunteer]= useVolunteer()
+    const [volunteer]= useVolunteer();
+    
+
+    
 
 
     return (
         <div className=''>
             <h3> Volunteers Activities:  {volunteer.length} </h3>
+
+           
+
            <div className='activity-container'>
                   
                    {
